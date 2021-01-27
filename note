@@ -1,0 +1,11 @@
+result=[[0]*10 for _ in range(10)]
+for i in range(10):
+    a=input().split()
+    for j in range(10):
+        result[i][j]=int(a[j])
+
+for i in range(10):
+    for j in range(10):
+        print(result[i][j], end=" ")
+    print()
+    #배열 한줄에 한개 씩 입력 by.python
