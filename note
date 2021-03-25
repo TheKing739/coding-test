@@ -9,3 +9,27 @@ for i in range(10):
         print(result[i][j], end=" ")
     print()
     #배열 한줄에 한개 씩 입력 by.python
+    
+//파이썬 자동화
+import pyautogui
+#pyautogui.PAUSE=0.25
+#
+#while True:
+#    pyautogui.moveTo(1470,661)
+#    pyautogui.rightClick()
+#    pyautogui.click(1493,761)
+#    pyautogui.moveTo(1548,666)
+#    pyautogui.click()
+#입력창. 1470,661
+#붙이기 1493 761
+#전송 1548,666
+
+pyautogui.PAUSE=0.25
+while True:
+    pyautogui.moveTo(1542,613)
+    pyautogui.rightClick()
+    pyautogui.moveTo(1577,781)
+    pyautogui.moveTo(1700,783)
+    pyautogui.click()
+    pyautogui.moveTo(1352,491)
+    pyautogui.click()
