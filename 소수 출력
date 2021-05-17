@@ -1,0 +1,7 @@
+import math
+
+n=1000
+array=[True for i in range(n+1)]
+
+#에라토스테네스의 체 알고리즘으로 작성
+.....
